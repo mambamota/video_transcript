@@ -1,0 +1,196 @@
+1
+00:00:00,000 --> 00:00:11,000
+In this demo, we will explore about how to create Navigation Flow, how we can customize it and assign permissions to user groups.
+
+2
+00:00:11,000 --> 00:00:22,000
+Navigation Flow enhances user experience with intuitive structured pathways for effortless navigation across modules and tasks.
+
+3
+00:00:22,000 --> 00:00:35,000
+Enables small transition between data entry, reporting and process management, optimizing efficiency with the planning and analytics workflows.
+
+4
+00:00:35,000 --> 00:00:42,000
+User has logged in into EPM Planning application. They will see this landing page.
+
+5
+00:00:42,000 --> 00:00:50,000
+Clicking on the navigation flow selector icon, you will see all the active navigation flow for this application.
+
+6
+00:00:50,000 --> 00:01:01,000
+EPM Planning comes with default navigation flow. You can toggle to different navigation flow simply by clicking on it.
+
+7
+00:01:01,000 --> 00:01:12,000
+Let's click on EPM Cloud navigation flow. You can see all the cards and clusters enabled for this particular navigation flow.
+
+8
+00:01:12,000 --> 00:01:18,000
+Now let's toggle back to EPM Flow.
+
+9
+00:01:18,000 --> 00:01:29,000
+Now we will see about the secondary panel and search for artifacts and see how session resumes when we toggle back around different modules without data loss.
+
+10
+00:01:29,000 --> 00:01:41,000
+Click on the Navigator icon to see more options. Click on the data card and let's open an Expense form under Demo Folder.
+
+11
+00:01:42,000 --> 00:01:53,000
+I'm going to expand the total year and I can see the quarters and I'm going to enter some data.
+
+12
+00:01:53,000 --> 00:02:01,000
+So it was 9000 and entering a 6000 and let's save this.
+
+13
+00:02:01,000 --> 00:02:06,000
+You can see how the data is reflected and we can see a 15000 now.
+
+14
+00:02:06,000 --> 00:02:16,000
+I'm going to click on the home page and open a report.
+
+15
+00:02:16,000 --> 00:02:31,000
+I'm going to search for a report and it shows the results of all the reports and I'm going to open the report from the demo folder.
+
+16
+00:02:31,000 --> 00:02:38,000
+I will close this report. I will click on the home page.
+
+17
+00:02:38,000 --> 00:02:43,000
+I can also click on the data card from the home page.
+
+18
+00:02:43,000 --> 00:02:58,000
+And this is to show how we got back to the data form where we entered the data and it does not take us to the photo session and we can resume the session from where we left.
+
+19
+00:02:58,000 --> 00:03:10,000
+In this landing page, we can see 7 icons, 3 on clusters which on expanding will show us cards and the others are cards.
+
+20
+00:03:10,000 --> 00:03:20,000
+We are going to disable the strategic modeling and we are going to enable a new card financial modeling in this demo.
+
+21
+00:03:20,000 --> 00:03:26,000
+To configure the navigation flow, a user need to have service admin access.
+
+22
+00:03:26,000 --> 00:03:33,000
+Now click on the tool cluster and you can see the navigation flow card.
+
+23
+00:03:33,000 --> 00:03:40,000
+Here you can see multiple navigation flows. Some of them are active and some of them are inactive.
+
+24
+00:03:40,000 --> 00:03:48,000
+You can select the navigation flow and click on the gear icon to see various options.
+
+25
+00:03:48,000 --> 00:03:53,000
+You can copy, you can delete and you can validate the navigation flow.
+
+26
+00:03:53,000 --> 00:03:59,000
+Before modifying a navigation flow, make sure that it is inactive.
+
+27
+00:03:59,000 --> 00:04:05,000
+Clicking on the active navigation flow will make the navigation flow inactive.
+
+28
+00:04:05,000 --> 00:04:10,000
+Click on the name of the navigation flow to start making changes.
+
+29
+00:04:10,000 --> 00:04:21,000
+Each item is designated a type, a cluster or a card, state of visibility, disabled, enabled.
+
+30
+00:04:22,000 --> 00:04:27,000
+Option to reorder and delete.
+
+31
+00:04:27,000 --> 00:04:36,000
+For this demo, we are going to enable the financial cluster which is disabled here on the top
+
+32
+00:04:36,000 --> 00:04:41,000
+and we are going to disable the strategic modeling.
+
+33
+00:04:41,000 --> 00:04:50,000
+Within the financial cluster, we are going to reorder by moving the revenue on the top.
+
+34
+00:04:51,000 --> 00:05:05,000
+I also have the options to create new cluster, add new cluster, add new card and to add a card within a cluster.
+
+35
+00:05:05,000 --> 00:05:17,000
+I also have the options to assign permissions to user groups or assigned roles to this particular navigation flow.
+
+36
+00:05:17,000 --> 00:05:22,000
+And I am going to save and close this navigation flow.
+
+37
+00:05:22,000 --> 00:05:30,000
+And I will have to click on the inactive button to activate this navigation flow.
+
+38
+00:05:30,000 --> 00:05:40,000
+Clicking on the home page, you can see that we could still see the strategic modeling and we don't see the financial modeling cluster yet.
+
+39
+00:05:40,000 --> 00:05:48,000
+To refresh the navigation flow, open the navigation flow selector icon and click on refresh.
+
+40
+00:05:48,000 --> 00:05:57,000
+The page reloads with the financial cluster and we no longer see the strategic modeling cluster.
+
+41
+00:05:57,000 --> 00:06:04,000
+Clicking on the financial cluster shows revenue at the first as we have reordered.
+
+42
+00:06:05,000 --> 00:06:17,000
+Clicking on the revenue card within the financial cluster will load us a dashboard within seconds.
+
+43
+00:06:17,000 --> 00:06:24,000
+Here, this is a working data for your FY23.
+
+44
+00:06:24,000 --> 00:06:33,000
+Hovering over these icons will throw us detailed information in this particular dashboard charts.
+
+45
+00:06:33,000 --> 00:06:37,000
+We can get more details by just hovering over them.
+
+46
+00:06:37,000 --> 00:06:45,000
+We can also navigate to different tabs and see more information.
+
+47
+00:06:45,000 --> 00:06:53,000
+We also have tabs at the bottom and at the top.
+
+48
+00:06:53,000 --> 00:07:02,000
+We can see all the latest trends for the particular year and we can hover over them for more information.
+
+49
+00:07:02,000 --> 00:07:11,000
+In this demo, we explored our navigation flow and how we can customize and assign permissions to user groups and roles.
+
